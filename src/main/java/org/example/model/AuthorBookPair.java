@@ -3,11 +3,11 @@ package org.example.model;
 public class AuthorBookPair {
 
     private Author author;
-    private Book book;
+    private Book firstBook;
 
-    public AuthorBookPair(Author author, Book book) {
+    public AuthorBookPair(Author author, Book firstBook) {
         this.author = author;
-        this.book = book;
+        this.firstBook = firstBook;
     }
 
     public AuthorBookPair() {}
@@ -20,15 +20,15 @@ public class AuthorBookPair {
         this.author = author;
     }
 
-    public Book getBook() {
-        return book;
+    public Book getFirstBook() {
+        return firstBook;
     }
 
-    public void setBook(Book book) {
-        this.book = book;
+    public void setFirstBook(Book firstBook) {
+        this.firstBook = firstBook;
     }
 
     public boolean equals(AuthorBookPair obj) {
-        return this.author.equals(obj.getAuthor()) && this.book.equals(obj.getBook());
+        return this.author.equals(obj.getAuthor()) && this.firstBook.equals(obj.getFirstBook());
     }
 }

@@ -8,5 +8,10 @@ public class Main {
 
         List<String> alphabetList = Arrays.asList("a", "b", "c", "d", "e");
 
+        for (String s : alphabetList) {
+
+            System.out.println(s);
+
+        }
     }
 }
