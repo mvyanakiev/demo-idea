@@ -8,10 +8,5 @@ public class Main {
 
         List<String> alphabetList = Arrays.asList("a", "b", "c", "d", "e");
 
-
-
-
-
-
     }
 }
